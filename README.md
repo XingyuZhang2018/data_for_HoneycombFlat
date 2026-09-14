@@ -6,7 +6,9 @@ This is a private, pre-arXiv preparation snapshot. It is not yet a complete arch
 
 ## Contents and reproduction
 
-`data/` contains the existing manuscript CSV/JSON tables, provenance records, and plotting scripts, copied without changes. CSV headers define the stored fields; JSON records and script selection rules retain the model, bond dimensions, observable conventions, exclusions, and source information. Historical source paths identify provenance and are not required for ordinary plotting. Large simulation checkpoints and full run histories are not included.
+`data/` contains the existing manuscript CSV/JSON tables, provenance records, plotting scripts, and the original Julia `VUMPS_data.ipynb` notebook, copied without changes. CSV headers define the stored fields; JSON records and script selection rules retain the model, bond dimensions, observable conventions, exclusions, and source information. Historical source paths identify provenance and are not required for ordinary Python plotting. Large simulation checkpoints and full run histories are not included.
+
+The VUMPS notebook includes embedded cylinder data and saved outputs, but also requires external JLD2 states for some sections and contains optimization cells. It has not been rerun. See `NOTEBOOK_GUIDE.md` for cell-level coverage, Julia dependencies, and remaining reproduction gaps.
 
 Install Python 3.10 or newer and the packages in `requirements.txt`. Run these commands from the repository root:
 

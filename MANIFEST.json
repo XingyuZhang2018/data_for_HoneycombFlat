@@ -1,8 +1,8 @@
 {
   "source_repository": "https://github.com/yuchihe/HoneycombFlat",
-  "source_head": "928559f97f8aca086881dc1f3d2a1e926791665c",
+  "source_head": "f06dea33017f5efed941a0e18f5ddddc9f8b7135",
   "snapshot_date": "2026-09-14",
-  "note": "Files copied from working tree; manuscript had a pre-existing modified j2p0p5_invxi_energy.pdf. No claim of complete raw-data coverage.",
+  "note": "Source contents checked against origin/main; original local file bytes retained, including line endings. VUMPS notebook statically inspected, not executed; external JLD2 inputs are not included.",
   "files": [
     {
       "path": "data/ed_phase_diagram_provenance.json",
@@ -93,6 +93,11 @@
       "path": "data/tm_spectrum_j2p_0p3_0p6_provenance.json",
       "bytes": 2380,
       "sha256": "e659f605e1eff9bf5e25399c87de17671ea557fdf2e626b68c7af8220c3dd079"
+    },
+    {
+      "path": "data/VUMPS_data.ipynb",
+      "bytes": 9226356,
+      "sha256": "e5b60b23ed662ce71cf43111ae4aeb13660a5e980f054f65bea09a20605c6d4b"
     }
   ]
 }
