@@ -1,0 +1,2 @@
+# Preserve exact source bytes so the manifest also verifies after cloning.
+data/** -text
