@@ -1,0 +1,66 @@
+{
+  "configuration": {
+    "model": "J1J2p Honeycomb merge iPEPS",
+    "D": 8,
+    "chi_tm": 256,
+    "sector": "trivial",
+    "bands": 10,
+    "k_over_pi": [
+      0.0,
+      0.08333333333333333,
+      0.16666666666666666,
+      0.25,
+      0.3333333333333333,
+      0.4166666666666667,
+      0.5,
+      0.5833333333333334,
+      0.6666666666666666,
+      0.75,
+      0.8333333333333334,
+      0.9166666666666666,
+      1.0
+    ],
+    "j2p": [
+      0.3,
+      0.4,
+      0.5,
+      0.6
+    ]
+  },
+  "sources": [
+    {
+      "j2p": 0.3,
+      "source_job": "43230054+43282536",
+      "quality": "from-row",
+      "quality_note": "Odd twelfths passed the 10/10 gate; older even-twelfth points are preliminary.",
+      "path": "D:\\1 - research\\1.24 - Honeycomb_J1J2\\analysis\\tm_spectrum_compare_20260714\\tm_spectrum_J2p0p30_0p40_0p46_0p50_D8_chi256_kpi12.csv"
+    },
+    {
+      "j2p": 0.4,
+      "source_job": "43304744",
+      "quality": "strict",
+      "quality_note": "All 13 momenta passed the 10/10 eigensolver gate with one frozen converged environment.",
+      "path": "D:\\1 - research\\1.24 - Honeycomb_J1J2\\hpc\\rendered\\2026-07-14_2105_bsc_J1J2p04_merge_D8chi256_TM_k0_pi12_pi_shared_env_tol1e6\\pulled_remote\\D8\\TM_spectrum\\trivial\\spectrum_k0_pi12_pi.csv"
+    },
+    {
+      "j2p": 0.5,
+      "source_job": "43368479",
+      "quality": "original-eigsolve",
+      "quality_note": "Fresh environment converged below 1e-6; original one-cycle Arnoldi semantics returned ten finite levels at every momentum.",
+      "path": "D:\\1 - research\\1.24 - Honeycomb_J1J2\\hpc\\rendered\\2026-07-16_1356_bsc_J1J2p05_merge_D8chi256_freshenv1e6_TM_orig_k0_pi12_pi\\synced_final\\D8\\TM_spectrum\\trivial\\spectrum_k0_pi12_pi_orig_eig.csv"
+    },
+    {
+      "j2p": 0.6,
+      "source_job": "43470110",
+      "quality": "original-eigsolve",
+      "quality_note": "Production validation passed for 13 momenta and 130 finite levels using Julia one-cycle Arnoldi semantics.",
+      "path": "D:\\1 - research\\1.24 - Honeycomb_J1J2\\hpc\\rendered\\2026-07-18_102434_bsc_J1J2p06_merge_D8chi256_TM_JuliaEig_production\\synced_final\\D8\\TM_spectrum\\trivial\\spectrum_k0_pi12_pi.csv"
+    }
+  ],
+  "validation": {
+    "rows": 520,
+    "points_per_j2p": 13,
+    "bands_per_point": 10,
+    "duplicate_keys": 0
+  }
+}

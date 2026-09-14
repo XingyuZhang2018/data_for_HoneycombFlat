@@ -1,0 +1,289 @@
+{
+  "model": {
+    "name": "J1J2p_Honeycomb_brickwall",
+    "J1": 1.0,
+    "J2p": 0.5,
+    "ifrotate": false,
+    "couplingtype": "uniform",
+    "pattern": [[1, 3, 5, 2, 4, 6], [2, 4, 6, 1, 3, 5]],
+    "boundary_algorithm": "VUMPS_General",
+    "scalar_type": "Float64",
+    "seed": 88,
+    "energy_convention": "energy per physical spin; bond entries include the corresponding coupling coefficient"
+  },
+  "provenance": {
+    "remote_root": "/gpfs/projects/ehpc670/data/J1J2p_Honeycomb_brickwall(S=0.5,J1=1.0,J2p=0.5,ifrotate=false,couplingtype=uniform)/[1 3 5 2 4 6; 2 4 6 1 3 5]/VUMPS_General/Float64/seed88",
+    "retrieved_from": "BSC MareNostrum 5",
+    "retrieved_date": "2026-08-17",
+    "observable_log_sha256": {
+      "D4_chi148": "c92cafc844c0180b277f5fecbea2079f0d737b65454bfe90195022fb37a10518",
+      "D5_chi188": "48cfc80dab2ed601411b787309bd3ccbe0821001fe5ec990a5b4f5c20c405ed8",
+      "D7_chi256": "09777888041a2f67f15277d1e3b5f2fb114cc6c308ac1739c7030b1ac1a28f9f",
+      "D9_chi260": "600ede20dfef4deae6d298b0024b889ec6504ba4dd6b9b627280012ee05dc1e0"
+    },
+    "selection_note": "lowest recorded chi-converged observable energy at each retained D"
+  },
+  "plaquette_best_by_D": [
+    {"D": 4, "chi": 148, "energy": -0.439183878373364, "magnetization": 0.00462108884672, "correlation_length": 0.279226098397348},
+    {"D": 5, "chi": 188, "energy": -0.440402676408074, "magnetization": 0.024368473821184, "correlation_length": 0.28656774523842},
+    {"D": 7, "chi": 256, "energy": -0.440780187832373, "magnetization": 0.02894067981382, "correlation_length": 0.294262392374611},
+    {"D": 9, "chi": 260, "energy": -0.440837595284994, "magnetization": 0.020968765650003, "correlation_length": 0.295853989100023}
+  ],
+  "merge_additional_provenance": {
+    "model": "J1J2p_Honeycomb_merge(S=0.5,J1=1.0,J2p=0.5,ifrotate=false,couplingtype=uniform)",
+    "pattern": [[1]],
+    "run": "sofia1gpu_D4-D8_J2p0.5_seed88_2026-06-11_190000",
+    "slurm_id": "1271522",
+    "source_backend": "TeneT.jl on one Sofia H200",
+    "local_root": "D:/1 - research/1.26 - iPEPS_opt/TeneT.jl/data/J1J2p_Honeycomb_merge(S=0.5,J1=1.0,J2p=0.5,ifrotate=false,couplingtype=uniform)/[1;;]/VUMPS_General/Float64/sofia1gpu_D4-D8_J2p0.5_seed88_2026-06-11_190000",
+    "D4": {
+      "observable_log_sha256": "55267e6230803f89efee4ac89710889884bc84c3c6f39a24994edccb8058ead0",
+      "tensor_sha256": "0bf8a390486e4fb28af9b6deb8632d79aacbe2df9f8996c223244b1b2d8fb9e1",
+      "lbfgs_sha256": "a7683370ec2fa061888355db5c683f00f3abf44b2263ee95016fa392a87d85e0"
+    },
+    "D5": {
+      "observable_log_sha256": "d87fea1440d126aaaa8f186a780aee4ecdfa3496638ed4ad3b93784bf3f530b3",
+      "tensor_sha256": "0c844c7587d632ee6ccbbe33a1cbaadf5a06617d865f8df72657f1653c8341d9",
+      "lbfgs_sha256": "a263ba0937ea3c6e1a285bbf51674c1c34ce075b657701ccc8bec288e1f5c297"
+    }
+  },
+  "merge_additional_points": [
+    {"D": 4, "chi": 224, "energy": -0.439783027462481, "magnetization": 0.104464767244262, "correlation_length": 0.935790940052841, "gnorm": 4.037448136975222e-06},
+    {"D": 5, "chi": 416, "energy": -0.441394706551138, "magnetization": 0.071203135158066, "correlation_length": 1.15108949196852, "gnorm": 3.4015280031683694e-06}
+  ],
+  "d9_chi260_nearest_neighbor_bonds": [
+    {"bond_type": "bond_J1H_energy", "i": 1, "j": 2, "energy": -0.180229838970787},
+    {"bond_type": "bond_J1H_energy", "i": 2, "j": 3, "energy": -0.408350714713054},
+    {"bond_type": "bond_J1H_energy", "i": 1, "j": 3, "energy": -0.40619552239985},
+    {"bond_type": "bond_J1H_energy", "i": 2, "j": 2, "energy": -0.171331871972031},
+    {"bond_type": "bond_J1H_energy", "i": 1, "j": 1, "energy": -0.398422146296336},
+    {"bond_type": "bond_J1H_energy", "i": 2, "j": 1, "energy": -0.402491867956511},
+    {"bond_type": "bond_J1V_energy", "i": 1, "j": 2, "energy": -0.411225912239346},
+    {"bond_type": "bond_J1V_energy", "i": 2, "j": 3, "energy": -0.404363929221441},
+    {"bond_type": "bond_J1V_energy", "i": 2, "j": 1, "energy": -0.177145509197776}
+  ],
+  "merge_pvb_best_by_D": [
+    {"D": 4, "chi": 256, "energy": -0.439551072193, "correlation_length": 0.267961},
+    {"D": 5, "chi": 512, "energy": -0.441244617161, "correlation_length": 0.321412},
+    {"D": 6, "chi": 512, "energy": -0.441257215458, "correlation_length": 0.322803}
+  ],
+  "merge_pvb_chi_ladders": {
+    "4": [
+      {"chi": 128, "energy": -0.439420931736, "correlation_length": 0.258284},
+      {"chi": 192, "energy": -0.439490045338, "correlation_length": 0.261004},
+      {"chi": 256, "energy": -0.439551072193, "correlation_length": 0.267961}
+    ],
+    "5": [
+      {"chi": 128, "energy": -0.441062099745, "correlation_length": 0.310687},
+      {"chi": 192, "energy": -0.441079923878, "correlation_length": 0.318239},
+      {"chi": 256, "energy": -0.441098152849, "correlation_length": 0.315688},
+      {"chi": 320, "energy": -0.441135131503, "correlation_length": 0.316384},
+      {"chi": 448, "energy": -0.441216090705, "correlation_length": 0.321489},
+      {"chi": 512, "energy": -0.441244617161, "correlation_length": 0.321412}
+    ],
+    "6": [
+      {"chi": 128, "energy": -0.441062605544, "correlation_length": 0.311547},
+      {"chi": 192, "energy": -0.44107668308, "correlation_length": 0.317018},
+      {"chi": 256, "energy": -0.441097224712, "correlation_length": 0.314504},
+      {"chi": 320, "energy": -0.441129595324, "correlation_length": 0.316827}
+    ],
+    "6_from_D5chi512": [
+      {"chi": 512, "energy": -0.441257215458, "correlation_length": 0.322803}
+    ]
+  },
+  "uniform_merge_like_for_like_best_by_D": [
+    {"D": 4, "chi": 512, "energy": -0.43980138045, "correlation_length": 0.969293},
+    {"D": 5, "chi": 512, "energy": -0.441395534918, "correlation_length": 1.160379}
+  ],
+  "uniform_merge_like_for_like_chi_ladders": {
+    "4": [
+      {"chi": 128, "energy": -0.439769635847, "correlation_length": 0.916481},
+      {"chi": 192, "energy": -0.439800369797, "correlation_length": 0.952623},
+      {"chi": 256, "energy": -0.439801306152, "correlation_length": 0.961361},
+      {"chi": 320, "energy": -0.439801368029, "correlation_length": 0.962661},
+      {"chi": 448, "energy": -0.439801378082, "correlation_length": 0.968501},
+      {"chi": 512, "energy": -0.43980138045, "correlation_length": 0.969293}
+    ],
+    "5": [
+      {"chi": 128, "energy": -0.440567212929, "correlation_length": 0.970572},
+      {"chi": 192, "energy": -0.44137930471, "correlation_length": 1.113575},
+      {"chi": 256, "energy": -0.441393771042, "correlation_length": 1.135761},
+      {"chi": 320, "energy": -0.441394944592, "correlation_length": 1.143787},
+      {"chi": 448, "energy": -0.441394939401, "correlation_length": 1.155369},
+      {"chi": 512, "energy": -0.441395534918, "correlation_length": 1.160379}
+    ]
+  },
+  "merge_pvb_provenance": {
+    "why": "The six-site Plaquette branch recomputed on the SAME merge ansatz used for the uniform state, so the comparison is no longer between a brickwall PVB and a merge uniform cell. Cell Ni=3 Nj=3 pattern=0,1,2,2,0,1,1,2,0 (three inequivalent tensors).",
+    "backend": "TeneT.c on one BSC MareNostrum-5 H100 for the plotted D4-D6 points",
+    "run_root": "/gpfs/projects/ehpc670/data/TeneT.c/J1J2p_Honeycomb_merge_PVB_J2p0p5_D4-D7_chimax256/2026-08-20_123229_bsc_singleH100_mergeparams",
+    "jobs": {
+      "D4": "44850018_0",
+      "D5": "44893113 (chi128-448) + 44980942 (chi512)",
+      "D6": "45138692 (chi512, re-grown from the D=5 chi512 tensor). The earlier D=6 ladder under D6_chain2 (job 44893114) was grown from D=5 at chi128 and is superseded; its chi448 rung had also been lost to a NODE_FAIL.",
+      "D7": "45594269, current chi512 four-H100 Slice1D smoke from Octopus source job 16894.0 No.4. One accepted update; the plotted optimizer energy is -0.441294519924511. The matching fixed-tensor observable is -0.441294519231 with strict max environment residual 6.953286e-7, differing by 6.93511e-10. The 49-step continuation 45610122 was still pending when this point was added."
+    },
+    "protocol": "profile A: vumps_maxiter=30, maxiter_ad=4, miniter_ad=4, power_iter=5, power_iter_ad=5, power_iter_obs=40, ls_maxfg=5, LBFGS m=200, ifprecondition=1, iter_precond=0, 50 LBFGS iterations per chi",
+    "initialisation": "D4 from a pinned ladder (pvb_strong_factor 5 -> 2 -> 1.3 -> 1.1 -> 1); D5 and D6 seeded from the D5 pinned solution, D6 by enlarge_ipeps_perturbation eps=1e-3",
+    "CAVEAT_not_chi_converged": "These are UPPER BOUNDS. The chi gain per 64 units of chi was still 6.1e-05 at D=4 chi=256 and 2.85e-05 at D=5 chi=512, unlike the uniform branch which converges to 1e-08 by chi=320. Do not describe the sequence as optimizer-converged.",
+    "D6_note": "SUPERSEDES the earlier claim that D=6 gives no improvement over D=5. That conclusion came from a D=6 grown out of the D=5 chi128 state; re-growing it from the converged D=5 chi512 state gives -0.441257215458 at chi512, which is 1.26e-05 BELOW the D=5 chi512 value of -0.441244617161. So D=6 does help, but only barely: the uniform branch gains 5.46e-04 over the same step (-0.441394707 -> -0.441940502), roughly forty times more, so the gap to the uniform state widens from 1.51e-04 at D=5 to 6.83e-04 at D=6."
+  },
+  "uniform_merge_like_for_like_provenance": {
+    "why": "Control computed with the SAME binary, parameters, D-chain construction and chi ladder as the merge-PVB points, to show the PVB gap is not an artefact of code or protocol.",
+    "backend": "TeneT.c on one BSC MareNostrum-5 H100",
+    "job": "45081926",
+    "run_root": "/gpfs/projects/ehpc670/data/TeneT.c/J1J2p_Honeycomb_merge_PVB_J2p0p5_D4-D7_chimax256/2026-08-20_123229_bsc_singleH100_mergeparams/UNIFORM_D4D5",
+    "cell": "Ni=1 Nj=1 pattern=0 (one-site [1;;] merge ansatz)",
+    "initialisation": "D4 fresh random seed 88, then enlarge_ipeps_perturbation eps=1e-2 to D5 - the same recipe as the Sofia reference run",
+    "validation": "Reproduces the independent TeneT.jl Sofia reference: D=4 -0.439801380 here versus -0.439783027 there (chi224), D=5 -0.441395535 here versus -0.441394707 there (chi416). Agreement to 8.3e-07 at D=5."
+  },
+  "merge_pvb_d5_chi448_nearest_neighbor_bonds": {
+    "bonds": {
+      "bond_J1_onsite_energy": {
+        "1,1": -0.18927167691309,
+        "2,1": -0.450825622091211,
+        "3,1": -0.351348048454571
+      },
+      "bond_J1H_energy": {
+        "1,1": -0.447015758777653,
+        "2,1": -0.34541954522721,
+        "3,1": -0.18590744932209
+      },
+      "bond_J1V_energy": {
+        "1,1": -0.347018691054601,
+        "2,1": -0.186686066445432,
+        "3,1": -0.446541378362133
+      }
+    },
+    "cell": {
+      "Ni": 3,
+      "Nj": 3,
+      "pattern_1based": [[1, 2, 3], [3, 1, 2], [2, 3, 1]],
+      "note": "app argument pattern=0,1,2,2,0,1,1,2,0 row-major, shifted to 1-based. Bond values are recorded at one representative position per unique pattern value (column 1); every cell position sharing that value carries the same three bond energies."
+    },
+    "geometry": {
+      "site_xy": "x=(j-1)*sqrt(3)+(i-1)*sqrt(3)/2 , y=-(i-1)*1.5 ; the k=2 spin sits at (x+sqrt(3)/2, y-0.5)",
+      "J1_onsite": "k=1 -> k=2 within the same merge site",
+      "J1H": "k=2 of (i,j) -> k=1 of (i,j+1)",
+      "J1V": "k=2 of (i,j) -> k=1 of (i+1,j)",
+      "source": "TeneT.jl src/visualization/plot_obs.jl, _honeycomb_merge_site_xy and _bond_offsets_honeycomb_merge"
+    },
+    "B_strong_mean": -0.3980281739945632,
+    "B_weak_mean": -0.187288397560204,
+    "Delta_PVB": 0.2107397764343592,
+    "provenance": {
+      "D": 5,
+      "chi": 448,
+      "energy_per_site": -0.441216090704955,
+      "measured_by": "job 44996566, bondlog-patched binary sha 42e673299e65f455db2c1179d07edae7c40c0b99d365c5578562283907432ebd",
+      "self_check": "re-evaluated energy reproduced the production obs value with |dE| = 0",
+      "why_patched_binary": "write_obs_log_chi sits inside the `else` of has_mg = !any_merge, so merge lattices compute the per-bond e_dict and discard it; the patch hoists the call for the !has_mg case"
+    }
+  },
+  "kagome_dimer_onehole_best_by_D": [
+    {"D": 4, "chi": 512, "energy": -0.441224932809, "gnorm": 0.008414127, "xi_mps": 0.52065, "xi_channel": 0.505507, "status": "chi_converged_reference"},
+    {"D": 5, "chi": 384, "energy": -0.441710676055022, "gnorm": 0.006440333, "xi_mps": 0.520599, "xi_channel": 0.518447, "observable_last_vumps_err": 3.129e-06, "status": "provisional_relaxed"},
+    {"D": 6, "chi": 384, "energy": -0.441784920772429, "xi_mps": 0.529516, "xi_channel": 0.525363, "matching_env_up": 1.057863e-06, "matching_env_dn": 3.566646e-06, "matching_env_err": 3.566646e-06, "source_job": "45534088", "tensor_sha256": "53ae1f14ca9578cd5cd632abd76e07ebd76b2635feb9b7d77895ac183997dea8", "status": "provisional_highest_recorded_chi_fixed_tensor_observable_relaxed", "source_log": "D:/1 - research/1.26 - iPEPS_opt/hpc/rendered/2026-09-07_1640_BSC_kdimer_D6_chi384_opt_production_after45531212/terminal_45534088/observable.log"},
+    {"D": 7, "chi": 512, "energy": -0.4418150602871, "optimizer_energy": -0.4418150602871, "optimizer_iter": 4, "latest_accepted_iter": 5, "latest_accepted_energy": -0.441814287947829, "gnorm": 0.02045, "eimag": 5.896e-11, "tensor_sha256": "74198c275d1b56a970e4ce55b1743e91aa25c21735a4e98448763cd170330f0d", "source_job": "45830129", "status": "live_provisional_highest_chi_best_accepted_optimizer_energy"}
+  ],
+  "kagome_dimer_d4_chi512_nearest_neighbor_bonds": [
+    {"group": "intra_dimer", "energy": -0.435726760684528},
+    {"group": "intra_dimer", "energy": -0.435348125255063},
+    {"group": "intra_dimer", "energy": -0.435466039108377},
+    {"group": "up_triangle", "energy": -0.369735577382363},
+    {"group": "up_triangle", "energy": -0.369730616517},
+    {"group": "up_triangle", "energy": -0.369494194875},
+    {"group": "down_triangle", "energy": -0.177489063861},
+    {"group": "down_triangle", "energy": -0.176895388622},
+    {"group": "down_triangle", "energy": -0.177540023256}
+  ],
+  "kagome_dimer_onehole_provenance": {
+    "D6_highest_chi_selection": "Highest recorded chi selected for D6 on 2026-09-14: chi384 observable E=-0.441784920772 from 45534088. The retry made zero accepted updates and left the input tensor byte-identical; this is a fixed-tensor measurement, not new optimizer progress. Residual max3.566646e-6 is RELAXED. The lower-chi256 optimizer point is retained in historical provenance but not plotted.",
+    "why": "A THIRD ansatz for the same Plaquette state. The Kekule dimer covering of the honeycomb lattice is merged pair-by-pair, so the dimer midpoints form a kagome lattice, which is contracted with the Setup-1 one-hole embedding (2x2 square block, roles A/B/C plus a fixed delta site). Three inequivalent trainable tensors, merged physical dimension d^2 = 4, hence 3*D^4*4 variational parameters - the same count as merge_pvb at equal D, and three times merge_additional_points / uniform_merge_like_for_like.",
+    "backend": "TeneT.c, lattice=kagome_dimer_onehole_real; D4/D5 on Octopus H100, selected D6 chi384 on four BSC H100s, and current D7 chi512 on four BSC H100s with native Slice2D/NCCL",
+    "jobs": "D4: 15258 and 15263 A4 on 2026-09-01; D5: 15820.0; selected D6 chi384: BSC 45534088 fixed-tensor observable after 45518436; historical D6 chi256: BSC 45594997 task 0 plus matching-environment rebuild 45610219; superseded D7 chi256: BSC 45578193 task 2; superseded D7 chi368: BSC 45594996 task 0; current D7 chi512: BSC 45830129, with matched continuation 45845645 pending",
+    "protocol": "env gate vumps_maxiter=200 vumps_tol=1e-8 (err 9.99e-09) -> optimize chi=256 vumps_maxiter=150 vumps_tol=1e-8 -> observable pass at chi=512 with vumps_maxiter=300 vumps_tol=1e-8; power counts 5/5/40",
+    "chi_convergence": "For D4, chi=256 gives -0.441224939858 and chi=512 gives -0.441224932809, agreeing to 7.0e-09. D5, D6, and D7 are current provisional points rather than chi/optimizer-converged releases.",
+    "D5_chi384_current": "Job 15820.0 final observable: E=-0.441710676055022, xi_mps=0.520599, xi_channel=0.518447; the last printed observable VUMPS residual was 3.129e-6 and |g|=6.440333e-3.",
+    "D6_chi384_earlier_observable": "BSC job 45518436 accepted iter5 E=-0.441784890775164. The identical tensor's fixed-tensor observable was E=-0.441784900076732, xi_mps=0.525176, xi_channel=0.525586, with max residual 3.943665e-6 (RELAXED). This earlier observable is replaced by the same tensor remeasured in job 45534088.",
+    "D6_chi256_historical": "BSC job 45594997 task 0 has 16 accepted records; the last/best optimizer value is E=-0.441975764473800 at iter16 with |g|=1.249e-1 and Eimag=3.933e-11. Its original final observable, E=-0.441841309280, had max residual 1.339738e-5 and is excluded. Job 45610219 rebuilt the identical tensor's matching environment to up/down/max residuals 1.680829e-8/5.889977e-7/5.889977e-7, but did not recompute the observable. The batch wrapper exited 1 only because the reserialized final tensor had a different byte hash despite zero relative tensor change; the strict environment and original accepted tensor are retained.",
+    "D7_chi256_superseded": "BSC job 45578193 task 2 has 21 accepted records; its best optimizer value is E=-0.442106275396650 at iter21. Its fixed-tensor observable environment had max residual 3.487136e-5. This lower-chi point is no longer plotted because the requested selection is the best result at the current maximum chi.",
+    "D7_chi368_superseded": "BSC job 45594996 task 0 completed with 13 accepted records and optimizer E=-0.441902479628902. Its final observable is E=-0.441834257417, xi_mps=0.531473, xi_channel=0.540896, with strict max residual 1.409442e-7. The chi368 optimizer value is 2.03795767748e-4 higher than the former chi256 optimizer value and is not plotted. Task 1 at chi512 failed with CUDA OOM before any accepted history.",
+    "D7_chi512_current": "Live BSC job 45830129 has five accepted records at chi512. The current best is iter4 E=-0.441815060287100 with |g|=2.045e-2 and Eimag=5.896e-11, tensor No.4 SHA256 74198c275d1b56a970e4ce55b1743e91aa25c21735a4e98448763cd170330f0d. Iter5 is slightly higher at E=-0.441814287947829 and is not selected. No final fixed-tensor observable exists yet. Matched continuation job 45845645 is pending and is not included.",
+    "CAVEAT_current_D5_D6_D7": "D5-D7 remain provisional. The D5 observable environment is above the strict 1e-6 release threshold; D6 uses the highest recorded chi384 fixed-tensor observable with relaxed max environment residual 3.566646e-6. D7 uses an optimizer-internal accepted energy and is the best accepted point of an active highest-chi optimization and has no final observable yet. Plot them as filled triangles as requested, label their status in the provenance, and do not extrapolate them.",
+    "CAVEAT_optimization_floor": "gnorm is NOT a distance to convergence here. At this state the optimizer cannot descend at all: two independent jobs both returned their FIRST iterate as best f and then drifted uphill by ~2.5e-05 over 55-60 iterations at 6.0 fg per iteration (healthy is 1.07). The approximate-Wolfe accept window is phi0 + ls_epsilon with ls_epsilon = 1e-6 ABSOLUTE, so once the gain per step falls below 1e-6 small increases are accepted. Neither an implicit fixed-point boundary derivative (implicit_ad=1) nor a larger chi moved gnorm off ~8.4e-3. The energy is a variational upper bound and is valid regardless; do not compare this gnorm with the 4e-6 of the merge points.",
+    "bond_pattern": "Six strong bonds (mean -0.402584) and three weak (mean -0.177308), giving Delta_PVB = 0.225275 against 0.228939 for the D=9 brickwall reference - the same Plaquette order. The strong six still split internally into three intra-dimer (-0.435514) and three up-triangle (-0.369653) bonds, a residual anisotropy of the merge construction that the D=9 brickwall reference does not have (its six strong bonds spread only 0.013)."
+  },
+  "kagome_dimer_onehole_kekule_route": [
+    {"D": 4, "chi": 512, "energy": -0.441225896391, "gnorm": 0.003260981, "xi_mps": 0.50687, "xi_channel": 0.514487}
+  ],
+  "kagome_dimer_onehole_kekule_note": "Independent route to the SAME plaquette state, reached from a fresh random tensor through a Kekule coupling pin ramped 5.0 -> 2.0 -> 1.3 -> 1.1 and then released to the unbiased model (job 15386, 2026-09-01). Six strong bonds mean -0.401658, three weak -0.178872, Delta_PVB = 0.222786, i.e. the same PVB order as the plotted point and as the D=9 brickwall reference. It is 9.64e-07 LOWER at the same chi=512, and its release descended monotonically for all 80 iterations at 1.025 fg per iteration, stopping on the iteration cap rather than on convergence -- so it was still improving. TRADE-OFF before quoting it instead of kagome_dimer_onehole_best_by_D: the plotted point is better chi-converged (chi=256 vs 512 differ by 7.0e-09) than this one (2.89e-07), so the lower energy comes with a weaker chi-convergence claim. Both are valid variational upper bounds at chi=512."
+,
+  "kagome_dimer_d7_chi512_nearest_neighbor_bonds": [
+    {
+      "group": "intra_dimer",
+      "bond_type": "bond_J1_dimer_energy",
+      "position": "1,1",
+      "energy": -0.417359862400599
+    },
+    {
+      "group": "intra_dimer",
+      "bond_type": "bond_J1_dimer_energy",
+      "position": "2,1",
+      "energy": -0.417539588165919
+    },
+    {
+      "group": "intra_dimer",
+      "bond_type": "bond_J1_dimer_energy",
+      "position": "1,2",
+      "energy": -0.41694511657973
+    },
+    {
+      "group": "up_triangle",
+      "bond_type": "bond_J1_AC_H_energy",
+      "position": "1,1",
+      "energy": -0.377395007567377
+    },
+    {
+      "group": "up_triangle",
+      "bond_type": "bond_J1_AB_V_energy",
+      "position": "1,1",
+      "energy": -0.376825359400505
+    },
+    {
+      "group": "up_triangle",
+      "bond_type": "bond_J1_CB_anti_energy",
+      "position": "1,1",
+      "energy": -0.376985192204231
+    },
+    {
+      "group": "down_triangle",
+      "bond_type": "bond_J1_BA_V_energy",
+      "position": "2,1",
+      "energy": -0.188593592658514
+    },
+    {
+      "group": "down_triangle",
+      "bond_type": "bond_J1_CA_H_energy",
+      "position": "1,2",
+      "energy": -0.188485739947518
+    },
+    {
+      "group": "down_triangle",
+      "bond_type": "bond_J1_BC_anti_energy",
+      "position": "2,2",
+      "energy": -0.188647019144442
+    }
+  ],
+  "kagome_dimer_d7_bond_provenance": {
+    "D": 7,
+    "chi": 512,
+    "source_job": "45750607",
+    "energy": -0.441788061378592,
+    "boundary_err": 1.611242e-06,
+    "status": "provisional_fixed_tensor_observable_relaxed",
+    "source_log": "D:\\1 - research\\1.26 - iPEPS_opt\\hpc\\rendered\\2026-09-11_D7chi512_slice2d_nccl_opt\\run_45750607\\opt\\D7\\observable\\chi512.log",
+    "source_log_sha256": "5a26f026f33690bb17823c2456e89299807a2c27bfcf146b234ad53e97623900",
+    "note": "Panel c uses this earlier fixed-tensor measurement; panel d retains the separately selected optimizer point from job 45830129 No.4."
+  }
+}

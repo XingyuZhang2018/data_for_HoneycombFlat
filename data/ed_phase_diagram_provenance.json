@@ -1,0 +1,32 @@
+{
+  "source": {
+    "path": "D:\\1 - research\\1.24 - Honeycomb_J1J2\\ED\\results\\phase_kscan_summary_full.h5",
+    "sha256": "c8af1feb6708cec3b46e48bfed4c55d481a12da7280f2e678175da83364f8478",
+    "original_plot_script": "D:\\1 - research\\1.24 - Honeycomb_J1J2\\analysis\\plot_ED_phase_diagram.jl"
+  },
+  "calculation": {
+    "model": "spin-1/2 J1-J2p honeycomb Heisenberg model",
+    "cluster": "24-site (2,2) C3-symmetric honeycomb torus",
+    "J1": 1.0,
+    "spin": 0.5,
+    "n_sites": 24,
+    "momentum_sectors": 12,
+    "couplings": 25
+  },
+  "local_data": {
+    "summary_csv": "ed_phase_diagram_summary.csv",
+    "sector_csv": "ed_phase_diagram_sectors.csv",
+    "summary_rows": 25,
+    "sector_rows": 300
+  },
+  "conventions": {
+    "momentum": "(n,m) follow Fig. S12: k=(n*b1+m*b2)/6 modulo reciprocal lattice vectors",
+    "source_momentum": "(qa,qb) are the internal Z2 x Z6 character labels stored in the source HDF5 file",
+    "momentum_mapping": "(n,m)=((3*qa+qb) mod 6, (-qb) mod 6)",
+    "gs_sector_index": "zero-based in the local CSV",
+    "many_body_gap": "E1-E0 across all momentum sectors, total energy",
+    "gamma_excess_per_site": "(E_Gamma-E0)/N",
+    "delta_energy_to_gs": "E_min(n,m)-E0, total energy",
+    "energy_curvature": "second derivative of E0/N on the nonuniform J2p/J1 grid"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "source_repository": "https://github.com/yuchihe/HoneycombFlat",
+  "source_head": "928559f97f8aca086881dc1f3d2a1e926791665c",
+  "snapshot_date": "2026-09-14",
+  "note": "Files copied from working tree; manuscript had a pre-existing modified j2p0p5_invxi_energy.pdf. No claim of complete raw-data coverage.",
+  "files": [
+    {
+      "path": "data/ed_phase_diagram_provenance.json",
+      "bytes": 1352,
+      "sha256": "93d80e6496c9b36160dba02ce3eb55ebcc8e0a2dac45d9995a8354091328144e"
+    },
+    {
+      "path": "data/ed_phase_diagram_sectors.csv",
+      "bytes": 18457,
+      "sha256": "e96ab3ef58809ec71922dbacac2010748cad5e6c1785984c174ce888db4a4804"
+    },
+    {
+      "path": "data/ed_phase_diagram_summary.csv",
+      "bytes": 3816,
+      "sha256": "03113d64ff62a5d42c5a843d41f6ed464b96dc8bd38182e50d1e8c9182a1c083"
+    },
+    {
+      "path": "data/fig2_j2p_magnetization_points.csv",
+      "bytes": 41336,
+      "sha256": "3aecfe5b47790c981ebb527fa272d655e7570e20a0f3c37218da8482de273648"
+    },
+    {
+      "path": "data/fig2_j2p_magnetization_summary.csv",
+      "bytes": 2369,
+      "sha256": "7a12c21ae29ae56827dbfd307478ac06dded4dc396e50e38ea585f4635b4fc9c"
+    },
+    {
+      "path": "data/j2p0p5_invxi_vs_invD_summary.csv",
+      "bytes": 266,
+      "sha256": "2e968873d45ae79ad675d5485bb96184fbbf436d56ecffe0a8b25a1a2b42a683"
+    },
+    {
+      "path": "data/j2p0p5_xi_vs_D_points.csv",
+      "bytes": 1895,
+      "sha256": "2df6637bf181acb187309306cfb3c3a8d803359df75e85891bc1017b987a1763"
+    },
+    {
+      "path": "data/plaquette_vbs_comparison_data.json",
+      "bytes": 23313,
+      "sha256": "8189dbdfdcb1e70cda3cf14c7d3c8b6952d4e18627adc17480a43710b511515c"
+    },
+    {
+      "path": "data/plot_ed_phase_diagram.py",
+      "bytes": 24720,
+      "sha256": "8dce0530f45a54f4b6d20f5a6132a2d8453bfa461881d48524bc5821a662c21a"
+    },
+    {
+      "path": "data/plot_fig2_j2p_magnetization.py",
+      "bytes": 12332,
+      "sha256": "8a0d69eb46d11e4fbc3383abd3f430947249faccba425a955dfab8409f5a9cfb"
+    },
+    {
+      "path": "data/plot_ipeps_merge_scheme.py",
+      "bytes": 8881,
+      "sha256": "9aa3cc0aa24987c1994878680fe733393f4e9d263b3d5fe1a5b412f4b1e04145"
+    },
+    {
+      "path": "data/plot_j2p0p5_invxi_tm_spectrum.py",
+      "bytes": 8224,
+      "sha256": "6ab586de7196a07ecda8821301319ca31a6fc933cf8659f694a000f4ce9eee87"
+    },
+    {
+      "path": "data/plot_j2p0p5_invxi_vs_invD.py",
+      "bytes": 8147,
+      "sha256": "565ffef438b502bc84669279587ecfe5b52e3daecf12c60372d52a7f47c022fb"
+    },
+    {
+      "path": "data/plot_plaquette_vbs_comparison.py",
+      "bytes": 18410,
+      "sha256": "01a109a11122c99cffd02fb27b0d8b8840a32722121e8e5e380c71c1e63ce02b"
+    },
+    {
+      "path": "data/plot_tm_spectrum_j2p.py",
+      "bytes": 13702,
+      "sha256": "4f5fd33c04fdd0b041484fd9002430aa84b81450d85be5f85c799569d03039b0"
+    },
+    {
+      "path": "data/tm_spectrum_j2p_0p3_0p6.csv",
+      "bytes": 222529,
+      "sha256": "879ef93cb8021749cbc0bf1e794128f3538cc4665951d2e874dfbeb75c3dc5d0"
+    },
+    {
+      "path": "data/tm_spectrum_j2p_0p3_0p6_minima.csv",
+      "bytes": 283,
+      "sha256": "4f412972b4063aaaa587a0bc9b107c6c14861aab93f317d8b9a2d2c2c0d6046b"
+    },
+    {
+      "path": "data/tm_spectrum_j2p_0p3_0p6_provenance.json",
+      "bytes": 2380,
+      "sha256": "e659f605e1eff9bf5e25399c87de17671ea557fdf2e626b68c7af8220c3dd079"
+    }
+  ]
+}
