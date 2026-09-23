@@ -1,8 +1,8 @@
 # Data for HoneycombFlat
 
-Supporting numerical data for **Extended symmetric regime in a honeycomb Heisenberg model with sublattice-selective interactions**, by Nai Chao Hu, Xing-Yu Zhang, Yuchi He, and Nick Bultinck.
+Supporting numerical data for **Extended symmetric quantum phase in a honeycomb Heisenberg model with sublattice-selective interactions**, by Nai Chao Hu, Xing-Yu Zhang, Yuchi He, and Nick Bultinck.
 
-This is a private, pre-arXiv preparation snapshot. It is not yet a complete archive of every figure. The repository will be made public after the arXiv preprint appears; the arXiv identifier and final data version must then be recorded here. No public release has been made.
+Public data snapshot v0.1.0, released on 2026-09-23, accompanying [arXiv:2609.25243](https://arxiv.org/abs/2609.25243). This is not yet a complete archive of every figure: see the coverage and notebook guides for missing inputs and reproduction limitations. The supplied data snapshot has not been revalidated against every figure in arXiv v1.
 
 ## Contents and reproduction
 
@@ -30,4 +30,4 @@ The scripts write PDF/PNG figures beside the data. Do not use `--refresh-data`: 
 
 Repository: https://github.com/XingyuZhang2018/data_for_HoneycombFlat
 
-Citation metadata is in `CITATION.cff`. There is no DOI or arXiv identifier assigned in this snapshot. Before public release, complete the missing sources, verify correspondence with the arXiv figures, agree a data/code license with the authors, and tag the final snapshot. No license is assigned during private preparation.
+Citation metadata is in `CITATION.cff`. The associated paper is [arXiv:2609.25243](https://arxiv.org/abs/2609.25243); no separate dataset DOI has been assigned. Version v0.1.0 identifies the initial public snapshot. A data/code reuse license has not yet been assigned.
